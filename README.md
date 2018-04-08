@@ -63,7 +63,7 @@ Each requirement must start on a new line and use the following format:
 
 #### Example
 ```
-price[90]
+price[50]
 looks[25]
 quality[25]
 ```
