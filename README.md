@@ -19,19 +19,7 @@ cd decis/decis
 sudo pip install -r requirements.txt
 ```
 
-## Usage
-```
-usage: decis.py [folder]
-```
-
-### Folder structure
-Example folder structure:
-- requirements.txt
-- choices
-  - machine1.md
-  - machine2.md
-
-
+## Example
 ```
 $ python decis/decis.py decis/example/
 name: machine1
@@ -50,6 +38,20 @@ quality: Certified (100)
 =========================================
 outcome: 75.00
 ```
+
+## Usage
+```
+usage: decis.py [folder]
+```
+
+## Folder structure
+A folder should contain requirements and choices. 
+
+Example folder structure:
+- requirements.txt
+- choices
+  - machine1.md
+  - machine2.md
 
 ## How to write a requirements (.txt) file?
 A requirements file needs the following:
@@ -80,7 +82,6 @@ A choice file needs the following:
 | **requirement** | name of requirement (from requirements.txt) |
 | **short** | 1-2 words review |
 | **satisfaction** (int) | value between 0-100, where higher is better |
-
 | **description** | arguments for review |
 
 ### Format
