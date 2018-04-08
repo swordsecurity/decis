@@ -9,14 +9,10 @@
 To run Restbot, you will need the following:
 - git
 - python
-- pip
 
 ## Installation
-Install dependencies from requirements.txt
 ```
 git clone [this repository]
-cd decis/decis
-sudo pip install -r requirements.txt
 ```
 
 ## Example
