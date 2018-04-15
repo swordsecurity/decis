@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import sys
 import os
 import re
@@ -37,8 +38,8 @@ def load_answers(answers_path):
 
             # try to parse score
             try:
-                score = re.findall(pattern,short_txt)[-1]
-                short_txt = short_txt.replace(score,"")
+                score = re.findall(pattern,subject)[-1]
+                subject = subject.replace(score,"")
                 score = score.replace("[","").replace("]","")
                 score = int(score)
             except IndexError as err:
