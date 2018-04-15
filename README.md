@@ -87,9 +87,9 @@ Each review must start on a new line and use the following format:
 #### Example
 ```
 # Machine 1
-price: cheap[90]. Cheap compared with others 
-looks: Very professional [90]. Professionaldesigned user interface, nice minimal layout.
-quality: not tested[0]. Not yet tested for production.
+price[90]: cheap. Cheap compared with others 
+looks[90]: Very professional. Professionaldesigned user interface, nice minimal layout.
+quality[0]: not tested. Not yet tested for production.
 
 ```
 
